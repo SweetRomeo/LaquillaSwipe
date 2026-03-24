@@ -1,4 +1,4 @@
-package org.emgrare.reels.app.laquillaswipe;
+package org.laquilla.swipe;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

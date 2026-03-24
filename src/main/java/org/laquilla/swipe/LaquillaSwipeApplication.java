@@ -1,4 +1,4 @@
-package org.emgrare.reels.app.laquillaswipe;
+package org.laquilla.swipe;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,6 +1,13 @@
+package org.laquilla.swipe.controller;
+
 import lombok.RequiredArgsConstructor;
+import org.laquilla.swipe.dto.VoteRequest;
+import org.laquilla.swipe.entity.Outfit;
+import org.laquilla.swipe.service.SwipeService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/v1/swipe")

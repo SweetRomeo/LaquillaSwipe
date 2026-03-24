@@ -1,8 +1,15 @@
-package org.emgrare.reels.app.laquillaswipe.service;
+package org.laquilla.swipe.service;
 
+import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
+import org.laquilla.swipe.entity.Outfit;
+import org.laquilla.swipe.entity.Vote;
+import org.laquilla.swipe.repository.OutfitRepository;
+import org.laquilla.swipe.repository.VoteRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 @Service
 @RequiredArgsConstructor // Lombok ile constructor injection
